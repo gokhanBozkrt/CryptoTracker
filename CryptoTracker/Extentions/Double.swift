@@ -20,6 +20,7 @@ extension Double {
         let formatter = NumberFormatter()
         formatter.usesGroupingSeparator = true
         formatter.numberStyle = .currency
+   //     formatter.locale = .current
      //  formatter.locale = .current <- default value
       //  formatter.currencyCode = "usd" <- change currency
        // formatter.currencySymbol = "$" <- change currency symbol
@@ -50,6 +51,7 @@ extension Double {
         let formatter = NumberFormatter()
         formatter.usesGroupingSeparator = true
         formatter.numberStyle = .currency
+    //    formatter.locale = .current
      //  formatter.locale = .current <- default value
       //  formatter.currencyCode = "usd" <- change currency
        // formatter.currencySymbol = "$" <- change currency symbol
