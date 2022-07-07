@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7111AB528774AF70052DE37 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7111AB428774AF70052DE37 /* NetworkManager.swift */; };
 		F7321BC22874C930001EA051 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7321BC12874C930001EA051 /* CoinDataService.swift */; };
 		F752B2992870D61C00169668 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752B2982870D61C00169668 /* CoinRowView.swift */; };
 		F752B29B2870D68C00169668 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752B29A2870D68C00169668 /* PreviewProvider.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7111AB428774AF70052DE37 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F7321BC12874C930001EA051 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		F752B2982870D61C00169668 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		F752B29A2870D68C00169668 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7111AB328774A5B0052DE37 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F7111AB428774AF70052DE37 /* NetworkManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		F7321BC02874C8EB001EA051 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 				F7E2C60F286A197200568B95 /* CryptoTrackerApp.swift */,
 				F7E2C61D286A1C9B00568B95 /* Extentions */,
 				F7321BC02874C8EB001EA051 /* Services */,
+				F7111AB328774A5B0052DE37 /* Utilities */,
 				F792E63C28708706001A1CDC /* Models */,
 				F7F15C86286C6268007D3462 /* Core */,
 				F7E2C613286A197600568B95 /* Assets.xcassets */,
@@ -236,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7111AB528774AF70052DE37 /* NetworkManager.swift in Sources */,
 				F7F15C8B286C62CD007D3462 /* HomeView.swift in Sources */,
 				F7E2C610286A197200568B95 /* CryptoTrackerApp.swift in Sources */,
 				F7F15C8F286C63F5007D3462 /* CircleButtonView.swift in Sources */,
