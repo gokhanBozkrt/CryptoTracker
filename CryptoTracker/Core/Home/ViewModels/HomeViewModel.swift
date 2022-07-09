@@ -31,37 +31,3 @@ class HomeViewModel: ObservableObject {
 
 }
 
-
-
-/*
- func getPosts2() {
-     guard let url = URL(string: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h"
-) else { return }
-     downloadData(fromUrl: url) { data in
-         if let data = data {
-             guard let newPost = try? JSONDecoder().decode([Coin].self, from: data) else {
-                 return
-             }
-             DispatchQueue.main.async { [weak self] in
-                 self?.allCoins = newPost
-                 
-             }
-         } else {
-             print("No data")
-         }
-     }
- }
- func downloadData(fromUrl url: URL, completionHandler: @escaping (_ data: Data?) -> Void) {
-     URLSession.shared.dataTask(with: url) { (data, response, error) in
-         guard let data = data,
-               error == nil ,
-               let response = response as? HTTPURLResponse,
-               response.statusCode >= 200 && response.statusCode < 300 else {
-             print("Unable to dpwnload data")
-             completionHandler(nil)
-             return
-         }
-   completionHandler(data)
-         }.resume()
-     }
- */

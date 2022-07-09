@@ -35,7 +35,7 @@ class NetworkingManager {
               response.statusCode >= 200 && response.statusCode < 300 else {
                   throw NetworkingError.badUrlResponse(url: url)
               }
-        return output.data
+            return output.data
     }
     
     static func completionHandler(completion: Subscribers.Completion<Error>) {

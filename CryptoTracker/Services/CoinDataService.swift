@@ -23,12 +23,8 @@ class CoinDataService {
             .decode(type: [Coin].self, decoder: JSONDecoder())
             .sink(receiveCompletion: NetworkingManager.completionHandler, receiveValue: { [weak self] (receivedCoins) in
                 self?.allCoins = receivedCoins
-               
                 self?.coinSubscription?.cancel()
             })
-         
-       
-
     }
 }
 
