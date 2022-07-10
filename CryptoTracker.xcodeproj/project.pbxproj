@@ -17,6 +17,8 @@
 		F7846B6A28796B42005B4C20 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7846B6928796B42005B4C20 /* CoinImageService.swift */; };
 		F7846B6C28796D3D005B4C20 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7846B6B28796D3D005B4C20 /* CoinImageViewModel.swift */; };
 		F792E63E2870871F001A1CDC /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792E63D2870871F001A1CDC /* CoinModel.swift */; };
+		F79A98E1287AC49C002AE45A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A98E0287AC49C002AE45A /* SearchBarView.swift */; };
+		F79A98E3287ACA53002AE45A /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A98E2287ACA53002AE45A /* UIApplication.swift */; };
 		F7E2C610286A197200568B95 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C60F286A197200568B95 /* CryptoTrackerApp.swift */; };
 		F7E2C614286A197600568B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E2C613286A197600568B95 /* Assets.xcassets */; };
 		F7E2C617286A197600568B95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E2C616286A197600568B95 /* Preview Assets.xcassets */; };
@@ -38,6 +40,8 @@
 		F7846B6928796B42005B4C20 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		F7846B6B28796D3D005B4C20 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		F792E63D2870871F001A1CDC /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		F79A98E0287AC49C002AE45A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		F79A98E2287ACA53002AE45A /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		F7E2C60C286A197200568B95 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E2C60F286A197200568B95 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		F7E2C613286A197600568B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +99,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F79A98DF287AC479002AE45A /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				F79A98E0287AC49C002AE45A /* SearchBarView.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
 		F7E2C603286A197200568B95 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +152,7 @@
 				F7E2C61E286A1CDA00568B95 /* Color.swift */,
 				F752B29A2870D68C00169668 /* PreviewProvider.swift */,
 				F752B29C2870DB9400169668 /* Double.swift */,
+				F79A98E2287ACA53002AE45A /* UIApplication.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -182,6 +195,7 @@
 		F7F15C8C286C63B9007D3462 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				F79A98DF287AC479002AE45A /* SearchBar */,
 				F7846B6628796958005B4C20 /* CoinImage */,
 				F7F15C8D286C63D3007D3462 /* CircleButton */,
 			);
@@ -267,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79A98E3287ACA53002AE45A /* UIApplication.swift in Sources */,
 				F7846B6C28796D3D005B4C20 /* CoinImageViewModel.swift in Sources */,
 				F7846B6828796987005B4C20 /* CoinImageView.swift in Sources */,
 				F7111AB528774AF70052DE37 /* NetworkManager.swift in Sources */,
@@ -282,6 +297,7 @@
 				F752B29D2870DB9400169668 /* Double.swift in Sources */,
 				F7F15C91286C71FC007D3462 /* CircleButtonAnimationView.swift in Sources */,
 				F7846B6A28796B42005B4C20 /* CoinImageService.swift in Sources */,
+				F79A98E1287AC49C002AE45A /* SearchBarView.swift in Sources */,
 				F7321BC22874C930001EA051 /* CoinDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
