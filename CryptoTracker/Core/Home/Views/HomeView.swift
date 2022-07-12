@@ -20,6 +20,7 @@ struct HomeView: View {
             // MARK: Content Layer
             VStack {
              homeHeader
+                HomeStatView(showPortfolio: $showPortfolio)
                 SearchBarView(searchText: $vm.searchText)
               columnTitles
                 .font(.caption)
