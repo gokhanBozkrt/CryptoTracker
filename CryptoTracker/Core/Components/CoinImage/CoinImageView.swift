@@ -37,3 +37,5 @@ struct CoinImageView_Previews: PreviewProvider {
             .padding()
     }
 }
+
+

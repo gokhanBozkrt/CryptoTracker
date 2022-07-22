@@ -10,6 +10,7 @@
 		F70BCDC9287ED6B100F63A99 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70BCDC8287ED6B100F63A99 /* PortfolioView.swift */; };
 		F70BCDCC287ED95800F63A99 /* XmarkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70BCDCB287ED95800F63A99 /* XmarkButtonView.swift */; };
 		F7111AB528774AF70052DE37 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7111AB428774AF70052DE37 /* NetworkManager.swift */; };
+		F717DC5B288B1FF400571290 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F717DC5A288B1FF400571290 /* Date.swift */; };
 		F71C4078287D97F900287E04 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71C4077287D97F900287E04 /* Statistics.swift */; };
 		F71C407B287D9CE000287E04 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71C407A287D9CE000287E04 /* StatisticView.swift */; };
 		F71C407D287DA42700287E04 /* HomeStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71C407C287DA42700287E04 /* HomeStatView.swift */; };
@@ -32,6 +33,7 @@
 		F79A98E1287AC49C002AE45A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A98E0287AC49C002AE45A /* SearchBarView.swift */; };
 		F79A98E3287ACA53002AE45A /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A98E2287ACA53002AE45A /* UIApplication.swift */; };
 		F7B71CC82881CAC7001C0FC2 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B71CC72881CAC7001C0FC2 /* HapticManager.swift */; };
+		F7CEAFA02889CA0700952F3E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CEAF9F2889CA0700952F3E /* ChartView.swift */; };
 		F7E2C610286A197200568B95 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C60F286A197200568B95 /* CryptoTrackerApp.swift */; };
 		F7E2C614286A197600568B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E2C613286A197600568B95 /* Assets.xcassets */; };
 		F7E2C617286A197600568B95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E2C616286A197600568B95 /* Preview Assets.xcassets */; };
@@ -48,6 +50,7 @@
 		F70BCDC8287ED6B100F63A99 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		F70BCDCB287ED95800F63A99 /* XmarkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmarkButtonView.swift; sourceTree = "<group>"; };
 		F7111AB428774AF70052DE37 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F717DC5A288B1FF400571290 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		F71C4077287D97F900287E04 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		F71C407A287D9CE000287E04 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		F71C407C287DA42700287E04 /* HomeStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatView.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 		F79A98E0287AC49C002AE45A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F79A98E2287ACA53002AE45A /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		F7B71CC72881CAC7001C0FC2 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		F7CEAF9F2889CA0700952F3E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		F7E2C60C286A197200568B95 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E2C60F286A197200568B95 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		F7E2C613286A197600568B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				F75EA73728840DD500A8A92D /* DetailView.swift */,
+				F7CEAF9F2889CA0700952F3E /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				F752B29A2870D68C00169668 /* PreviewProvider.swift */,
 				F752B29C2870DB9400169668 /* Double.swift */,
 				F79A98E2287ACA53002AE45A /* UIApplication.swift */,
+				F717DC5A288B1FF400571290 /* Date.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -382,6 +388,7 @@
 				F7504C31288603FB003A6431 /* CoinDetail.swift in Sources */,
 				F7F15C8F286C63F5007D3462 /* CircleButtonView.swift in Sources */,
 				F75EA73828840DD500A8A92D /* DetailView.swift in Sources */,
+				F717DC5B288B1FF400571290 /* Date.swift in Sources */,
 				F7FAFF64288684C000A16B2B /* DetailViewModel.swift in Sources */,
 				F71C4078287D97F900287E04 /* Statistics.swift in Sources */,
 				F7EB264428737D2F0021695C /* HomeViewModel.swift in Sources */,
@@ -393,6 +400,7 @@
 				F752B29B2870D68C00169668 /* PreviewProvider.swift in Sources */,
 				F71C4086287DE16D00287E04 /* MarketData.swift in Sources */,
 				F752B2992870D61C00169668 /* CoinRowView.swift in Sources */,
+				F7CEAFA02889CA0700952F3E /* ChartView.swift in Sources */,
 				F752B29D2870DB9400169668 /* Double.swift in Sources */,
 				F7B71CC82881CAC7001C0FC2 /* HapticManager.swift in Sources */,
 				F7F15C91286C71FC007D3462 /* CircleButtonAnimationView.swift in Sources */,
