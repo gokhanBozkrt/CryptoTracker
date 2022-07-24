@@ -33,6 +33,7 @@
 		F79A98E1287AC49C002AE45A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A98E0287AC49C002AE45A /* SearchBarView.swift */; };
 		F79A98E3287ACA53002AE45A /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79A98E2287ACA53002AE45A /* UIApplication.swift */; };
 		F79DF64D288C5DEA003E059A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DF64C288C5DEA003E059A /* String.swift */; };
+		F7A4A5A2288D324900B47290 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4A5A1288D324900B47290 /* SettingsView.swift */; };
 		F7B71CC82881CAC7001C0FC2 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B71CC72881CAC7001C0FC2 /* HapticManager.swift */; };
 		F7CEAFA02889CA0700952F3E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CEAF9F2889CA0700952F3E /* ChartView.swift */; };
 		F7E2C610286A197200568B95 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E2C60F286A197200568B95 /* CryptoTrackerApp.swift */; };
@@ -74,6 +75,7 @@
 		F79A98E0287AC49C002AE45A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F79A98E2287ACA53002AE45A /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		F79DF64C288C5DEA003E059A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		F7A4A5A1288D324900B47290 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F7B71CC72881CAC7001C0FC2 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		F7CEAF9F2889CA0700952F3E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		F7E2C60C286A197200568B95 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +196,22 @@
 			path = SearchBar;
 			sourceTree = "<group>";
 		};
+		F7A4A59F288D31B800B47290 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4A5A0288D322F00B47290 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F7A4A5A0288D322F00B47290 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4A5A1288D324900B47290 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F7E2C603286A197200568B95 = {
 			isa = PBXGroup;
 			children = (
@@ -249,9 +267,10 @@
 		F7F15C86286C6268007D3462 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				F7F15C87286C6289007D3462 /* Home */,
 				F7F15C8C286C63B9007D3462 /* Components */,
+				F7F15C87286C6289007D3462 /* Home */,
 				F75EA732288405D800A8A92D /* Detail */,
+				F7A4A59F288D31B800B47290 /* Settings */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -381,6 +400,7 @@
 				F756AA93287F122E00399FDE /* CoinLogoView.swift in Sources */,
 				F71C407B287D9CE000287E04 /* StatisticView.swift in Sources */,
 				F7846B6C28796D3D005B4C20 /* CoinImageViewModel.swift in Sources */,
+				F7A4A5A2288D324900B47290 /* SettingsView.swift in Sources */,
 				F798EC952880B40900F2759B /* PortfolioContainer.xcdatamodeld in Sources */,
 				F7846B6828796987005B4C20 /* CoinImageView.swift in Sources */,
 				F71C407D287DA42700287E04 /* HomeStatView.swift in Sources */,

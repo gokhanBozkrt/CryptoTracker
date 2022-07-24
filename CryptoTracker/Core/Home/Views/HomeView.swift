@@ -14,6 +14,7 @@ struct HomeView: View {
     @State private var showPortfolioView = false // new sheet
     @State private var selectedCoin: Coin? = nil
     @State private var  showDetailView = false
+    @State private var  showSettingsView = false // new sheet
     var body: some View {
         ZStack {
             // MARK: Background Layer
@@ -45,7 +46,10 @@ struct HomeView: View {
                         .transition(.move(edge: .trailing))
                 }
                Spacer(minLength: 0)
+            }.sheet(isPresented: $showSettingsView) {
+          SettingsView()
             }
+
         }
         .background(
             NavigationLink(isActive: $showDetailView, destination: {
@@ -75,6 +79,8 @@ extension HomeView {
                 .onTapGesture {
                     if showPortfolio {
                         showPortfolioView.toggle()
+                    } else {
+                        showSettingsView.toggle()
                     }
                 }
                 .background(
