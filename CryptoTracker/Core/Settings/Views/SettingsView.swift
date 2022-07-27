@@ -16,20 +16,30 @@ struct SettingsView: View {
     let personelURl = URL(string: "https://github.com/gokhanBozkrt")!
     var body: some View {
         NavigationView {
-            List {
-               swiftGuySection
-                coinGeckoSection
-                developerSection
-                applicationSection
-            }.font(.headline)
-            .listStyle(.grouped)
-                .tint(.blue)
+            ZStack {
+                Color.theme.background
+                    .ignoresSafeArea()
+                List {
+                   swiftGuySection
+                        .listRowBackground(Color.theme.background.opacity(0.5))
+                    coinGeckoSection
+                        .listRowBackground(Color.theme.background.opacity(0.5))
+                    developerSection
+                        .listRowBackground(Color.theme.background.opacity(0.5))
+                    applicationSection
+                        .listRowBackground(Color.theme.background.opacity(0.5))
+                }
+                
+            }
+            .font(.headline)
+            .listStyle(GroupedListStyle())
+            .tint(.blue)
             .navigationTitle("Settings")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     XmarkButtonView(dismiss: _dismiss)
                 }
-            }
+        }
         }
     }
 }

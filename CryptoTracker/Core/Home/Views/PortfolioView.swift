@@ -23,7 +23,12 @@ struct PortfolioView: View {
                       portfolioInputSection
                     }
                 }
-            }.navigationTitle("Edit Portfolio")
+            }
+            .background(
+                Color.theme.background
+                    .ignoresSafeArea()
+            )
+            .navigationTitle("Edit Portfolio")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
                         XmarkButtonView(dismiss: _dismiss)
