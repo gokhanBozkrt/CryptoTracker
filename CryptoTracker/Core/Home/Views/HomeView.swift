@@ -42,8 +42,15 @@ struct HomeView: View {
                     .transition(.move(edge: .leading))
                 }
                 if showPortfolio {
-                    portfolioCoinList
-                        .transition(.move(edge: .trailing))
+                    ZStack(alignment: .top) {
+                        if vm.portfolioCoins.isEmpty && vm.searchText.isEmpty {
+                          portfolioEmptyText
+                        } else {
+                            portfolioCoinList
+                                
+                        }
+                    }
+                    .transition(.move(edge: .trailing))
                 }
                Spacer(minLength: 0)
             }.sheet(isPresented: $showSettingsView) {
@@ -190,5 +197,13 @@ extension HomeView {
             .rotationEffect(Angle(degrees: vm.isLoading ? 360 : 0),anchor: .center)
 
         }
+    }
+    private var portfolioEmptyText: some View {
+        Text("Portfolyonda hiç coin bulunmuyor. Coin eklemek için + butonuna tıklayıp coin ekleyebilirsin.! 🤔")
+            .font(.callout)
+            .foregroundColor(Color.theme.accent)
+            .fontWeight(.medium)
+            .multilineTextAlignment(.center)
+            .padding(50)
     }
 }
